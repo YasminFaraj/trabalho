@@ -1,0 +1,13 @@
+@base_url = https://localhost:5000/Accept-Datetime: 
+
+POST https://localhost:5000/api/funcionario/cadastrar
+Content-Type: application/json
+
+{
+    "nome": "Yasmin Faraj",
+    "cpf": "12345678914"
+}
+
+GET https://localhost:5000/api/funcionario/listar
+
+
